@@ -1,0 +1,111 @@
+/* Sección 1 */
+.section_1{
+    width: 100%;
+    background-image: url(../img/home_bg_1.jpg);
+    background-size: 120%;
+    background-repeat: no-repeat;
+    border-bottom: solid 3px #29323d;
+}
+.section_1_shadow{
+    width: 100%;
+    padding: 50px 0 35px 0;
+    background-color: #14243481;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.section_1_img{
+    width: 25%;
+    aspect-ratio: 2.8/4;
+    background-image: url(../img/home_img_1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.section_1_textbox_1{
+    background-color: #142434b4;
+    width: 30.3569%;
+    aspect-ratio: 30.3569/35.7142;
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 300;
+}
+.section_1_textbox_1 h2{
+    color: #b2a085;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 120%;
+    margin: 20px 0 25px 20px;
+}
+.section_1_textbox_1 p{
+    margin-left: 20px;
+    margin-right: 100px;
+}
+.section_1_textbox_1_boldtext{
+    font-weight: 500;
+    margin: 0 0 25px 0;
+}
+
+/* Sección 2 */
+.section_2{
+    width: 100%;
+    display: flex;
+    position: relative;
+    overflow-x: hidden;
+    border-bottom: solid 3px #29323d;
+}
+.section_2 video{
+    position: initial;
+    width: 100vw;
+    left: 0;
+    top: 0;
+}
+.section_2_shadow{
+    position: initial;
+    min-width: 100vw;
+    aspect-ratio: 16/9;
+    translate: -100vw 0;
+    background-color: #29323d81;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.section_2_textbox_1{
+    width: 60%;
+    background-color: #142434a2;
+    padding: 15px 0 15px 0;
+}
+.section_2_textbox_1 h2{
+    font-size: 42px;
+    color: white;
+    text-align: center;
+    font-weight: 400;
+    margin-left: 15%;
+    margin-right: 15%;
+    line-height: 150%;
+}
+
+.section_2_textbox_2{
+    padding: 20px 0 20px 0;
+    width: 35%;
+    background: linear-gradient(to right, #aba4995d, #ffffff5d);
+    border-top-right-radius: 18px;
+    border-bottom-right-radius: 18px;
+}
+.section_2_textbox_2_textcont{
+    padding: 35px 15px 35px 15px;
+    width: 80%;
+    background: linear-gradient(to right, #aba499c0, #ffffffc0);
+    float: right;
+    font-weight: 400;
+    font-size: 40px;
+    color: #000000;
+    text-align: center;
+    translate: 20px 0;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+.section_2_textbox_2_textcont:hover{
+    translate: 35px 0;
+}
+
